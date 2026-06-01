@@ -1,7 +1,35 @@
-.project-details{
-    background-color: #f0f0f0;
-    color:blueviolet
+.project-details {
+    display: flex;
+    flex-direction: row; /* 👈 makes items stack vertically */
+    background-color: #ffffff;
+    color: rgb(62, 62, 62);
     padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 50px;
+    margin: 10px auto;
+    width: 90%;
+    gap: 20px; /* space between sections */
+    flex-wrap: wrap;      /* optional but useful for small screens */
+}
+
+.container {
+    background-color: #e0ffc1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 👈 depth */
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+}
+p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
 }
